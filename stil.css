@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mojeime { 
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif" ;
+	line-height: 300px;
+	font-size: 150px;
+	text-align:center;
+	margin-top: 100px;
+}
+.naslov{
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif" ;
+	font-size: 50px;
+	text-align:center;
+}
+.naslov2{
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif" ;
+	font-size: 50px;
+	text-align: left;
+	margin-left: 230px;
+}
+.paragraf{
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	margin-left: 180px;
+	margin-bottom: 10px;
+	font-size: 27px;
+	width: 680px;
+	background: white;
+	opacity: 0.5;
+	border-radius: 8px;
+}
+body {
+	background-image: url("Slike/pozadina.jpg")
+}
+
+.opis {
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	margin-left: 630px;
+	margin-bottom: 10px;
+	font-size: 25px;
+	width: 680px;
+	background: white;
+	opacity: 0.5;
+	border-radius: 8px;
+}
+.opis2 {
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	margin-top: 80px;
+	margin-left: 630px;
+	margin-bottom: 10px;
+	font-size: 25px;
+	background: white;
+	opacity: 0.5;
+	border-radius: 8px;
+	width: 100px;
+}
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+	font-family: "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+#navbar {
+	
+    background: white;
+	opacity: 0.5;
+    color: #AECE9E;
+    overflow: auto;
+}
+
+#navbar a {
+    color: black;
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover
+ {
+    background: #AECE9E;
+    color: black;
+}
+
+.column {
+  float: left;
+  width: 33,33%;
+  padding: 40px;
+}
+	
+	.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.slika3{
+	margin-left: 260px;
+}
+
+.slika4{
+	margin-left: 120px;
+}
+
+.slika5{
+	margin-left: 75px;
+}
+
+.video{
+	margin-left: 280px;
+}
+
+.vjezbe{
+	margin-left: 230px;
+	font-size: 30px;
+}
+
+.slika6{
+	margin-left: 220px;
+}
+
+.slika7{
+	margin-left: 75px;
+	mergin-right: 220px;
+}
+
+.margina{
+	margin-left: 440px;
+}
+.margina2{
+	margin-left: 365px;
+}
+.tekst{
+	margin-left: 230px;
+	width: 1400px;
+	font-size: 27px;
+}
+.video2{
+	margin-left: 700px;
+}
